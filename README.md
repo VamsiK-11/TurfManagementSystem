@@ -125,11 +125,11 @@ The Dockerfile uses a **multi-stage build**:
 | Service | Repository |
 |---|---|
 | Eureka Server | _coming soon_ |
-| API Gateway | _coming soon_ |
-| Auth Service | _coming soon_ |
-| Turf Service | _coming soon_ |
-| Booking Service | _coming soon_ |
-| Payment Service | _coming soon_ |
+| API Gateway | [NammaArena-APIGateway](https://github.com/VamsiK-11/NammaArena-APIGateway) |
+| Auth Service | [NammaArena-AuthService](https://github.com/VamsiK-11/NammaArena-AuthService) |
+| Turf Service | [NammaArena-TurfService](https://github.com/VamsiK-11/NammaArena-TurfService) |
+| Booking Service | [NammaArena-BookingService](https://github.com/VamsiK-11/NammaArena-BookingService) |
+| Payment Service | [NammaArena-PaymentService](https://github.com/VamsiK-11/NammaArena-PaymentService) |
 
 ---
 
