@@ -1,8 +1,8 @@
-# 🏟️ NammaArena — Turf Management System (Frontend)
+# 🏟️ NammaArena
 
 NammaArena is a full-stack **Turf Management System** built with a microservices architecture. This repository contains the **React frontend** that powers the entire user interface for all three roles — Admin, Owner, and User.
 
-> 🔗 Backend microservices are maintained in separate repositories (links below).
+> 🔗 Backend microservices are maintained in separate repositories.
 
 ---
 
@@ -16,23 +16,22 @@ NammaArena is a full-stack **Turf Management System** built with a microservices
 | HTTP Client | Axios |
 | Forms | React Hook Form |
 | Payments | Stripe (via @stripe/react-stripe-js) |
-| Fonts | Playfair Display, Raleway (Google Fonts) |
 | Containerization | Docker + Nginx |
 
 ---
 
 ## 👥 Roles & Features
 
-### 🔴 Admin (1 account)
-- View all registered users and owners — **delete** any user or owner account
-- View all turfs across the platform — **approve or reject** turf listings submitted by owners (a turf is only visible to users after admin approval)
-- View all bookings across the system — **cancel** any user's booking
+### 🔴 Admin - Only One
+- View all registered users and owners + **delete** any user or owner account
+- View all turfs across the platform + **approve or reject** turf listings submitted by owners (a turf is only visible to users after admin approval)
+- View all bookings across the system + **cancel** any user's booking
 
 ### 🟡 Owner
 - Register and manage their own turf listings
 - Submit turfs for admin approval
 - View their own turfs and their current approval status
-- View all bookings made on their turfs by users
+- View all bookings made on their turfs by users and bookings can be cancelled
 
 ### 🟢 User
 - Browse all approved turfs
@@ -122,8 +121,6 @@ The Dockerfile uses a **multi-stage build**:
 ---
 
 ## 🔗 Backend Repositories
-
-> Will be updated as each service is pushed.
 
 | Service | Repository |
 |---|---|
